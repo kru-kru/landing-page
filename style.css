@@ -89,3 +89,69 @@ h1 {
     align-items: center;
     justify-content: center;
 }
+
+.information {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 42px;
+}
+
+.blocks {
+    display: flex;
+    flex-direction: row;
+    gap: 52px;
+    margin-bottom: 80px;
+}
+
+.picture {
+    border: 4px solid #3882F6;
+    border-radius: 16px;
+    width: 150px;
+    height: 150px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.picture, .subtext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subtext {
+    width: 150px;
+}
+
+.quote-block {
+
+    background-color: #E5E7EB;
+    text-align: left;
+    padding: 42px 400px;
+    color: #1F2937;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.customer-name {
+    text-align: right;
+    font-size: 24px;
+    font-weight: 900;
+}
