@@ -4,14 +4,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.first_screen {
-    /* height: 450px; */
+/* Header Styles */
+.header {
     background: #1F2937;
     color: #F9FAF8;
-
-}
-
-.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,29 +27,27 @@ ul {
 
 li {
     list-style-type: none;
+    font-size: 18px;
+    color: #E5E7EB; 
 }
 
 a {
     text-decoration: none;
-    font-size: 18px;
     color: #E5E7EB; 
-    font-family: 'Roboto', sans-serif;
 }
 
-.first_screen_body {
+/*Hero Section Styles*/
+.first_screen {
+    background: #1F2937;
+    color: #F9FAF8;
     display: flex;
     align-items: center;
-    align-content: center;
     justify-content: space-between;  
     padding: 60px 200px 120px;
-    margin: 0;
-
 }
 
-.hero_secondary, h1 {
-    display: flex;
-    flex-wrap: wrap;
-    width: 500px;
+.hero-text {
+    width: 50%;
 }
 
 h1 {
@@ -65,24 +59,23 @@ h1 {
 .hero_secondary {
     font-size: 18px;
     color: #E5E7EB; 
-    margin: 10px 0;
+    margin: 5px 0;
 }
 
-.sign_up {
+.sign-up {
     background-color: #3882F6;
     border-radius: 8px;
     color: #E5E7EB; 
     border: none;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 700;
-    padding: 8px 32px;
+    padding: 10px 32px;
     margin-top: 8px;
-
 }
 
-.first_screen_picture {
+.hero-picture {
     display: flex;
-    width: 500px;
+    width: 50%;
     height: 250px;
     background-color: #3881f61e;
     margin-left: 48px;
@@ -90,12 +83,12 @@ h1 {
     justify-content: center;
 }
 
+/*Information Section*/
 .information {
     display: flex;
     align-items: center;
     flex-direction: column;
     text-align: center;
-
 }
 
 h2 {
@@ -137,7 +130,6 @@ h2 {
 }
 
 .quote-block {
-
     background-color: #E5E7EB;
     text-align: left;
     padding: 42px 400px;
@@ -154,4 +146,40 @@ h2 {
     text-align: right;
     font-size: 24px;
     font-weight: 900;
+}
+
+.action-screen {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    margin: 100px 200px;
+    border-radius: 8px;
+    padding: 42px 100px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 900;
+    color: #ffffff;
+    margin: 0;
+}
+
+.ghost {
+    font-size: 18px;
+    font-weight: bold;
+    border: 3px solid #F9FAF8;
+    border-radius: 8px;
+    background: none;
+    margin: 10px 0;
+    padding: 8px 32px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 36px;
+    margin: 0;
 }
